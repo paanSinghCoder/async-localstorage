@@ -1,5 +1,5 @@
 {
-  "name": "localstorage-async",
+  "name": "async-localstorage",
   "license": "MIT",
   "version": "0.0.1",
   "main": "dist/index.js",
@@ -9,7 +9,7 @@
     "build": "tsup index.ts --format cjs,esm --dts",
     "lint": "tsc",
     "change": "pnpm changeset",
-    "publish-now": "npm run build && npm publish"
+    "publish-now": "npm run build && npm publish --access=public"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
